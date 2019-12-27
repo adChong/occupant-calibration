@@ -54039,11 +54039,11 @@ WindowProperty:FrameAndDivider,
 People,
     F2_People,  !- Name
     F2, !- Zone or ZoneList Name
-    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    f2_sch,            !- Number of People Schedule Name
     Area/Person,             !- Number of People Calculation Method
     ,                        !- Number of People
     ,                        !- People per Zone Floor Area {person/m2}
-    18.58,                   !- Zone Floor Area per Person {m2/person}
+    3.67,                   !- Zone Floor Area per Person {m2/person}
     0.3,                     !- Fraction Radiant
     AUTOCALCULATE,           !- Sensible Heat Fraction
     ACTIVITY_SCH,            !- Activity Level Schedule Name
@@ -54061,11 +54061,11 @@ People,
 People,
     F3_People,  !- Name
     F3, !- Zone or ZoneList Name
-    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    f3_sch,            !- Number of People Schedule Name
     Area/Person,             !- Number of People Calculation Method
     ,                        !- Number of People
     ,                        !- People per Zone Floor Area {person/m2}
-    18.58,                   !- Zone Floor Area per Person {m2/person}
+    6.42,                   !- Zone Floor Area per Person {m2/person}
     0.3,                     !- Fraction Radiant
     AUTOCALCULATE,           !- Sensible Heat Fraction
     ACTIVITY_SCH,            !- Activity Level Schedule Name
@@ -54083,11 +54083,11 @@ People,
 People,
     F4_People,  !- Name
     F4, !- Zone or ZoneList Name
-    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    f4_sch,            !- Number of People Schedule Name
     Area/Person,             !- Number of People Calculation Method
     ,                        !- Number of People
     ,                        !- People per Zone Floor Area {person/m2}
-    18.58,                   !- Zone Floor Area per Person {m2/person}
+    3.96,                   !- Zone Floor Area per Person {m2/person}
     0.3,                     !- Fraction Radiant
     AUTOCALCULATE,           !- Sensible Heat Fraction
     ACTIVITY_SCH,            !- Activity Level Schedule Name
@@ -54105,11 +54105,11 @@ People,
 People,
     F5_People,  !- Name
     F5, !- Zone or ZoneList Name
-    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    f5_sch,            !- Number of People Schedule Name
     Area/Person,             !- Number of People Calculation Method
     ,                        !- Number of People
     ,                        !- People per Zone Floor Area {person/m2}
-    18.58,                   !- Zone Floor Area per Person {m2/person}
+    5.01,                   !- Zone Floor Area per Person {m2/person}
     0.3,                     !- Fraction Radiant
     AUTOCALCULATE,           !- Sensible Heat Fraction
     ACTIVITY_SCH,            !- Activity Level Schedule Name
@@ -54127,11 +54127,11 @@ People,
 People,
     F6_People,  !- Name
     F6, !- Zone or ZoneList Name
-    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    f6_sch,            !- Number of People Schedule Name
     Area/Person,             !- Number of People Calculation Method
     ,                        !- Number of People
     ,                        !- People per Zone Floor Area {person/m2}
-    18.58,                   !- Zone Floor Area per Person {m2/person}
+    3.01,                   !- Zone Floor Area per Person {m2/person}
     0.3,                     !- Fraction Radiant
     AUTOCALCULATE,           !- Sensible Heat Fraction
     ACTIVITY_SCH,            !- Activity Level Schedule Name
@@ -54152,7 +54152,7 @@ People,
 Lights,
     F2_Lights,            !- Name
     F2,             !- Zone or ZoneList Name
-    BLDG_LIGHT_SCH,   !- Schedule Name
+    f2_sch,   !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Lighting Level {W}
     10.76,                       !- Watts per Zone Floor Area {W/m2}
@@ -54165,7 +54165,7 @@ Lights,
 Lights,
     F3_Lights,            !- Name
     F3,             !- Zone or ZoneList Name
-    BLDG_LIGHT_SCH,   !- Schedule Name
+    f3_sch,   !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Lighting Level {W}
     10.76,                       !- Watts per Zone Floor Area {W/m2}
@@ -54178,7 +54178,7 @@ Lights,
 Lights,
     F4_Lights,            !- Name
     F4,             !- Zone or ZoneList Name
-    BLDG_LIGHT_SCH,   !- Schedule Name
+    f4_sch,   !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Lighting Level {W}
     10.76,                       !- Watts per Zone Floor Area {W/m2}
@@ -54191,7 +54191,7 @@ Lights,
  Lights,
     F5_Lights,            !- Name
     F5,             !- Zone or ZoneList Name
-    BLDG_LIGHT_SCH,   !- Schedule Name
+    f5_sch,   !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Lighting Level {W}
     10.76,                       !- Watts per Zone Floor Area {W/m2}
@@ -54204,7 +54204,7 @@ Lights,
 Lights,
     F6_Lights,            !- Name
     F6,             !- Zone or ZoneList Name
-    BLDG_LIGHT_SCH,   !- Schedule Name
+    f6_sch,   !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Lighting Level {W}
     10.76,                       !- Watts per Zone Floor Area {W/m2}
@@ -54219,7 +54219,7 @@ Lights,
 ElectricEquipment,
     F2_Plug_Equip, !- Name
     F2,                !- Zone or ZoneList Name
-    BLDG_EQUIP_SCH,          !- Schedule Name
+    f2_sch,          !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Design Level {W}
     10.76,                   !- Watts per Zone Floor Area {W/m2}
@@ -54232,7 +54232,7 @@ ElectricEquipment,
 ElectricEquipment,
     F3_Plug_Equip, !- Name
     F3,                !- Zone or ZoneList Name
-    BLDG_EQUIP_SCH,          !- Schedule Name
+    f3_sch,          !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Design Level {W}
     10.76,                   !- Watts per Zone Floor Area {W/m2}
@@ -54245,7 +54245,7 @@ ElectricEquipment,
 ElectricEquipment,
     F4_Plug_Equip, !- Name
     F4,                !- Zone or ZoneList Name
-    BLDG_EQUIP_SCH,          !- Schedule Name
+    f4_sch,          !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Design Level {W}
     10.76,                   !- Watts per Zone Floor Area {W/m2}
@@ -54258,7 +54258,7 @@ ElectricEquipment,
 ElectricEquipment,
     F5_Plug_Equip, !- Name
     F5,                !- Zone or ZoneList Name
-    BLDG_EQUIP_SCH,          !- Schedule Name
+    f5_sch,          !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Design Level {W}
     10.76,                   !- Watts per Zone Floor Area {W/m2}
@@ -54271,7 +54271,7 @@ ElectricEquipment,
 ElectricEquipment,
     F6_Plug_Equip, !- Name
     F6,                !- Zone or ZoneList Name
-    BLDG_EQUIP_SCH,          !- Schedule Name
+    f6_sch,          !- Schedule Name
     Watts/Area,              !- Design Level Calculation Method
     ,                        !- Design Level {W}
     10.76,                   !- Watts per Zone Floor Area {W/m2}
