@@ -1714,52 +1714,22 @@ Material:InfraredTransparent,
 
 !-   ===========  ALL OBJECTS IN CLASS: WINDOWMATERIAL:GLAZING ===========
 
-WindowMaterial:Glazing,
-    2,                       !- Name
-    SpectralAverage,         !- Optical Data Type
-    ,                        !- Window Glass Spectral Data Set Name
-    0.003,                   !- Thickness {m}
-    0.837,                   !- Solar Transmittance at Normal Incidence
-    0.075,                   !- Front Side Solar Reflectance at Normal Incidence
-    0.075,                   !- Back Side Solar Reflectance at Normal Incidence
-    0.898,                   !- Visible Transmittance at Normal Incidence
-    0.081,                   !- Front Side Visible Reflectance at Normal Incidence
-    0.081,                   !- Back Side Visible Reflectance at Normal Incidence
-    0,                       !- Infrared Transmittance at Normal Incidence
-    0.84,                    !- Front Side Infrared Hemispherical Emissivity
-    0.84,                    !- Back Side Infrared Hemispherical Emissivity
-    0.9,                     !- Conductivity {W/m-K}
-    1;                       !- Dirt Correction Factor for Solar and Visible Transmittance
-
+! clear 6mm
 WindowMaterial:Glazing,
     38,                      !- Name
     SpectralAverage,         !- Optical Data Type
     ,                        !- Window Glass Spectral Data Set Name
-    0.003,                   !- Thickness {m}
-    0.74,                    !- Solar Transmittance at Normal Incidence
-    0.09,                    !- Front Side Solar Reflectance at Normal Incidence
-    0.1,                     !- Back Side Solar Reflectance at Normal Incidence
-    0.82,                    !- Visible Transmittance at Normal Incidence
-    0.11,                    !- Front Side Visible Reflectance at Normal Incidence
-    0.12,                    !- Back Side Visible Reflectance at Normal Incidence
-    0,                       !- Infrared Transmittance at Normal Incidence
-    0.84,                    !- Front Side Infrared Hemispherical Emissivity
-    0.2,                     !- Back Side Infrared Hemispherical Emissivity
-    0.9,                     !- Conductivity {W/m-K}
-    1;                       !- Dirt Correction Factor for Solar and Visible Transmittance
-
-
-!-   ===========  ALL OBJECTS IN CLASS: WINDOWMATERIAL:GAS ===========
-
-WindowMaterial:Gas,
-    1002,                    !- Name
-    Air,                     !- Gas Type
-    0.013;                   !- Thickness {m}
-
-WindowMaterial:Gas,
-    Half thickness 1002,     !- Name
-    Air,                     !- Gas Type
-    0.0065;                  !- Thickness {m}
+    .006,                    !- Thickness {m}
+    .775,                    !- Solar Transmittance at Normal Incidence
+    .071,                    !- Front Side Solar Reflectance at Normal Incidence
+    .071,                    !- Back Side Solar Reflectance at Normal Incidence
+    .881,                    !- Visible Transmittance at Normal Incidence
+    .080,                    !- Front Side Visible Reflectance at Normal Incidence
+    .080,                    !- Back Side Visible Reflectance at Normal Incidence
+    .0,                      !- Infrared Transmittance at Normal Incidence
+    .84,                     !- Front Side Infrared Hemispherical Emissivity
+    .84,                     !- Back Side Infrared Hemispherical Emissivity
+    .9;                      !- Conductivity {W/m-K}
 
 
 !-   ===========  ALL OBJECTS IN CLASS: CONSTRUCTION ===========
@@ -1865,7 +1835,7 @@ Construction,
     Floor/Roof Screed_.O7,   !- Layer 2
     Cast Concrete_.1,        !- Layer 3
     Urea Formaldehyde Foam_.1327;  !- Layer 4
-
+1001
 ! Project internal floor_Reversed
 Construction,
     Project internal floor_Reversed,  !- Name
@@ -1878,211 +1848,67 @@ Construction,
 
 Construction,
     1001,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2001,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1002,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2002,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1003,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2003,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1004,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2004,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1005,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2005,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1006,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2006,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1007,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2007,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1008,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2008,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1009,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2009,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1010,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2010,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1011,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2011,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1012,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2012,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1013,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2013,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1014,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2014,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1015,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2015,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 Construction,
     1016,                    !- Name
-    38,                      !- Outside Layer
-    1002,                    !- Layer 2
-    2;                       !- Layer 3
-
-Construction,
-    2016,                    !- Name
-    20001,                   !- Outside Layer
-    38,                      !- Layer 2
-    1002,                    !- Layer 3
-    2;                       !- Layer 4
+    38;                      !- Outside Layer
 
 
 !-   ===========  ALL OBJECTS IN CLASS: GLOBALGEOMETRYRULES ===========
