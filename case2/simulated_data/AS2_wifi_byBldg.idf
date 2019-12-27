@@ -1464,7 +1464,7 @@ Material,
 ! 1 Brick Thick Wall (covered by plaster or tiles outside)
 Material,
     1B Plastered Wall,      !- Name
-    Smoot215,                   !- Roughness
+    Smooth,                   !- Roughness
     0.225,                     !- Thickness {m}
     0.807,                    !- Conductivity {W/m-K}
     1760,                    !- Density {kg/m3}
