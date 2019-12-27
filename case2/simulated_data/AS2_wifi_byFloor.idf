@@ -1732,19 +1732,6 @@ WindowMaterial:Glazing,
     .9;                      !- Conductivity {W/m-K}
 
 
-!-   ===========  ALL OBJECTS IN CLASS: WINDOWMATERIAL:GAS ===========
-
-WindowMaterial:Gas,
-    1002,                    !- Name
-    Air,                     !- Gas Type
-    0.013;                   !- Thickness {m}
-
-WindowMaterial:Gas,
-    Half thickness 1002,     !- Name
-    Air,                     !- Gas Type
-    0.0065;                  !- Thickness {m}
-
-
 !-   ===========  ALL OBJECTS IN CLASS: CONSTRUCTION ===========
 
 Construction,
