@@ -1763,7 +1763,7 @@ Construction,
 
 ! <Previous reversed>
 Construction,
-    Project wall,            !- Name
+    Project wall_Rev,            !- Name
     1B Plastered Wall;      !- Outside Layer
 
 ! Project internal floor
