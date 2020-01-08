@@ -1070,23 +1070,60 @@ Schedule:Compact,
     Until: 24:00,            !- Field 3
     14;                      !- Field 4
 
-! Schedule: Heating set point schedule
-Schedule:Compact,
-    Heating set point schedule,  !- Name
-    Any Number,              !- Schedule Type Limits Name
-    Through: 12/31,          !- Field 1
-    For: AllDays,            !- Field 2
-    Until: 24:00,            !- Field 3
-    20;                      !- Field 4
-
 ! Schedule: Cooling set point schedule
 Schedule:Compact,
     Cooling set point schedule,  !- Name
-    Any Number,              !- Schedule Type Limits Name
+    Temperature,             !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
-    For: AllDays,            !- Field 2
-    Until: 24:00,            !- Field 3
-    24;                      !- Field 4
+    For: Weekdays SummerDesignDay,  !- Field 2
+    Until: 06:00,            !- Field 3
+    26.7,                    !- Field 4
+    Until: 22:00,            !- Field 5
+    24.0,                    !- Field 6
+    Until: 24:00,            !- Field 7
+    26.7,                    !- Field 8
+    For: Saturday,           !- Field 9
+    Until: 06:00,            !- Field 10
+    26.7,                    !- Field 11
+    Until: 18:00,            !- Field 12
+    24.0,                    !- Field 13
+    Until: 24:00,            !- Field 14
+    26.7,                    !- Field 15
+    For WinterDesignDay,     !- Field 16
+    Until: 24:00,            !- Field 17
+    26.7,                    !- Field 18
+    For: AllOtherDays,       !- Field 19
+    Until: 24:00,            !- Field 20
+    26.7;                    !- Field 21
+
+! Schedule: Heating set point schedule
+Schedule:Compact,
+    Heating set point schedule,  !- Name
+    Temperature,             !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: Weekdays,           !- Field 2
+    Until: 06:00,            !- Field 3
+    15.6,                    !- Field 4
+    Until: 22:00,            !- Field 5
+    21.0,                    !- Field 6
+    Until: 24:00,            !- Field 7
+    15.6,                    !- Field 8
+    For SummerDesignDay,     !- Field 9
+    Until: 24:00,            !- Field 10
+    15.6,                    !- Field 11
+    For: Saturday,           !- Field 12
+    Until: 06:00,            !- Field 13
+    15.6,                    !- Field 14
+    Until: 18:00,            !- Field 15
+    21.0,                    !- Field 16
+    Until: 24:00,            !- Field 17
+    15.6,                    !- Field 18
+    For: WinterDesignDay,    !- Field 19
+    Until: 24:00,            !- Field 20
+    21.0,                    !- Field 21
+    For: AllOtherDays,       !- Field 22
+    Until: 24:00,            !- Field 23
+    15.6;                    !- Field 24
 
 ! Schedule: Control type schedule: Always 4
 Schedule:Compact,
