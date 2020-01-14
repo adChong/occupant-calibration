@@ -1,7 +1,12 @@
 
 data/.ipynb_checkpoints/wifi data exploration-checkpoint.ipynb
-case2/field_data/AS2_WIFI_2018_raw/*
-case2/simulated_data/AS2_wifi_byBldg_simulations/*
-case2/simulated_data/AS2_wifi_byFloor_simulations/*
-case2/field_data/obs_field.RData
-case2/simulated_data/AS2_wifi_byBldg_output.RData
+AS2/field_data/AS2_WIFI_2018_raw/*
+AS2/simulated_data/AS2_wifi_byBldg_simulations/*
+AS2/simulated_data/AS2_wifi_byFloor_simulations/*
+AS2/field_data/obs_field.RData
+AS2/simulated_data/AS2_wifi_byBldg_output.RData
+
+SDE2/simulated_data/SDE2_wifi_byBldg_simulations/*
+SDE2/simulated_data/SDE2_wifi_byFloor_simulations/*
+SDE2/field_data/obs_field.RData
+SDE2/simulated_data/SDE2_wifi_byBldg_output.RData
